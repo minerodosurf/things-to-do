@@ -12,7 +12,11 @@ section.content-widget.col3 h3{
   font-size: 2rem;
   font-weight: 400;
 }
-
+@media only screen and (min-width: 767px){
+   #navigation .mm-drop {
+    background: #F5F5F5;
+   }
+}
 /* THINGS TO DO MVT HOMEPAGE */
 
 .title-things-to-do---mvt-homepage>h2,
