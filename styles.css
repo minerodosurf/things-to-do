@@ -1,0 +1,142 @@
+/* MVT WHITE BACKGROUND */
+#wrapper {
+  background: #FFF;
+}
+#main .main-container{
+  overflow: visible;
+}
+#main section.content-widget{
+  background: #FFF;
+}
+section.content-widget.col3 h3{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* THINGS TO DO MVT HOMEPAGE */
+
+.title-things-to-do---mvt-homepage>h2,
+.title-things-to-do-and-destinations--sydney->h2,
+.deals-gallery .carousel-wrapper>h2{
+  border: none;
+  font-size: 3.3rem;
+  line-height: 1.8rem;
+  margin: 30px 0 45px;
+  padding: 0;
+  color: #10a1cc;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+}
+.title-things-to-do-and-destinations--sydney->h2 a,
+.deals-gallery .carousel-wrapper>h2 a{
+  color: #10a1cc;
+}
+.title-things-to-do---mvt-homepage>ul{
+  display: flex;
+  flex-wrap:wrap;
+  margin:0 !important;
+  min-width: 100% !important;
+}
+
+.title-things-to-do---mvt-homepage>ul>li{
+  display: inline-block;
+  margin:0;
+  flex-grow: 1;
+  width: calc(100% * (1) - 10px - 1px);
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+
+}
+@media screen and (min-width: 560px) {
+.title-things-to-do---mvt-homepage>ul>li{
+    width: calc(100% * (1/2) - 10px - 1px);
+
+  }
+}
+@media screen and (min-width: 768px) {
+  .title-things-to-do---mvt-homepage>ul>li{
+    width: calc(100% * (1/4) - 10px - 1px);
+  }
+}
+
+.title-things-to-do---mvt-homepage.columns h3 {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+.title-things-to-do---mvt-homepage.columns h3 a{
+  color: #FFF !important;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  -ms-transition: all 800ms ease-in-out;
+  -o-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+  transition: font 300ms ease;
+  font-size: 1.5rem;
+}
+.title-things-to-do---mvt-homepage.columns li:hover img{
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -ms-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+.title-things-to-do---mvt-homepage.columns a .cover,
+.title-things-to-do---mvt-homepage.columns a .rollover-arrow{
+  display: none !important;
+}
+
+.title-things-to-do---mvt-homepage.columns li:hover h3 a{
+  background: rgba(16, 161, 204, 0.75);
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  top:0;
+  font-size: 1.7rem;
+}
+.title-things-to-do---mvt-homepage.columns li h3 a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 35%;
+  height: 2px;
+  width: 0;
+}
+
+.title-things-to-do---mvt-homepage.columns li h3 a:hover:before{
+  width: 80%;
+  background: #FFF;
+  transition: width .65s ease;
+  margin: 0 10%;
+}
+
+.title-things-to-do---mvt-homepage.columns li:hover img{
+  opacity: 0.8;
+}
+.title-things-to-do---mvt-homepage.columns p{
+  display: none;
+}
+
