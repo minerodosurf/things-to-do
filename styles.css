@@ -91,11 +91,11 @@ section.content-widget.col3 h3{
   width: 100%;
   z-index: 2;
   background: rgba(0, 0, 0, 0.6);
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
   font-size: 1.7rem;
   text-transform: uppercase;
 }
@@ -165,7 +165,7 @@ section.content-widget.col3 h3{
 .title-things-to-do---mvt-homepage.columns li h3 a:hover:before{
   width: 80%;
   background: #FFF;
-  transition: width .65s ease;
+  transition: width .35s ease;
   margin: 0 10%;
 }
 
